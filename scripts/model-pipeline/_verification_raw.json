@@ -1,0 +1,137 @@
+{
+ "skeleton": {
+  "status": "verified",
+  "checked_at": "2026-11-06T20:57:38.485Z",
+  "notes": "",
+  "load_ms": 1460,
+  "meshes_rendered": 277,
+  "thumb": "thumbs/skeleton.jpg",
+  "non_background_ratio": 0.094
+ },
+ "joints": {
+  "status": "verified",
+  "checked_at": "2026-11-06T20:57:42.218Z",
+  "notes": "",
+  "load_ms": 1084,
+  "meshes_rendered": 409,
+  "thumb": "thumbs/joints.jpg",
+  "non_background_ratio": 0.06
+ },
+ "muscles": {
+  "status": "verified",
+  "checked_at": "2026-11-06T20:57:45.274Z",
+  "notes": "",
+  "load_ms": 1411,
+  "meshes_rendered": 593,
+  "thumb": "thumbs/muscles.jpg",
+  "non_background_ratio": 0.129
+ },
+ "fasciae": {
+  "status": "verified",
+  "checked_at": "2026-11-06T20:57:49.134Z",
+  "notes": "",
+  "load_ms": 1035,
+  "meshes_rendered": 76,
+  "thumb": "thumbs/fasciae.jpg",
+  "non_background_ratio": 0.14
+ },
+ "heart": {
+  "status": "verified",
+  "checked_at": "2026-11-06T20:57:52.063Z",
+  "notes": "",
+  "load_ms": 1262,
+  "meshes_rendered": 28,
+  "thumb": "thumbs/heart.jpg",
+  "non_background_ratio": 0.575
+ },
+ "vessels": {
+  "status": "verified",
+  "checked_at": "2026-11-06T20:57:55.797Z",
+  "notes": "",
+  "load_ms": 1108,
+  "meshes_rendered": 647,
+  "thumb": "thumbs/vessels.jpg",
+  "non_background_ratio": 0.065
+ },
+ "respiratory": {
+  "status": "verified",
+  "checked_at": "2026-11-06T20:57:59.056Z",
+  "notes": "",
+  "load_ms": 1012,
+  "meshes_rendered": 36,
+  "thumb": "thumbs/respiratory.jpg",
+  "non_background_ratio": 0.203
+ },
+ "digestive": {
+  "status": "verified",
+  "checked_at": "2026-11-06T20:58:01.981Z",
+  "notes": "",
+  "load_ms": 1025,
+  "meshes_rendered": 46,
+  "thumb": "thumbs/digestive.jpg",
+  "non_background_ratio": 0.11
+ },
+ "urinary": {
+  "status": "verified",
+  "checked_at": "2026-11-06T20:58:05.132Z",
+  "notes": "",
+  "load_ms": 1079,
+  "meshes_rendered": 4,
+  "thumb": "thumbs/urinary.jpg",
+  "non_background_ratio": 0.043
+ },
+ "reproductive": {
+  "status": "verified",
+  "checked_at": "2026-11-06T20:58:07.719Z",
+  "notes": "",
+  "load_ms": 1092,
+  "meshes_rendered": 14,
+  "thumb": "thumbs/reproductive.jpg",
+  "non_background_ratio": 0.174
+ },
+ "endocrine": {
+  "status": "verified",
+  "checked_at": "2026-11-06T20:58:10.730Z",
+  "notes": "",
+  "load_ms": 1044,
+  "meshes_rendered": 10,
+  "thumb": "thumbs/endocrine.jpg",
+  "non_background_ratio": 0.021
+ },
+ "lymphatic": {
+  "status": "verified",
+  "checked_at": "2026-11-06T20:58:13.193Z",
+  "notes": "",
+  "load_ms": 1090,
+  "meshes_rendered": 158,
+  "thumb": "thumbs/lymphatic.jpg",
+  "non_background_ratio": 0.017
+ },
+ "cns": {
+  "status": "verified",
+  "checked_at": "2026-11-06T20:58:16.327Z",
+  "notes": "",
+  "load_ms": 1492,
+  "meshes_rendered": 282,
+  "thumb": "thumbs/cns.jpg",
+  "non_background_ratio": 0.057
+ },
+ "pns": {
+  "status": "verified",
+  "checked_at": "2026-11-06T20:58:20.969Z",
+  "notes": "",
+  "load_ms": 1190,
+  "meshes_rendered": 255,
+  "thumb": "thumbs/pns.jpg",
+  "non_background_ratio": 0.043
+ },
+ "sensory": {
+  "status": "verified",
+  "checked_at": "2026-11-06T20:58:24.220Z",
+  "notes": "",
+  "load_ms": 1073,
+  "meshes_rendered": 36,
+  "thumb": "thumbs/sensory.jpg",
+  "non_background_ratio": 0.188
+ }
+}

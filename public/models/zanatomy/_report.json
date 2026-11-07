@@ -1,0 +1,186 @@
+{
+ "report": [
+  [
+   "skeleton",
+   277,
+   702015,
+   350796,
+   1286836,
+   7.9
+  ],
+  [
+   "joints",
+   409,
+   325703,
+   111569,
+   723004,
+   3.3
+  ],
+  [
+   "muscles",
+   593,
+   2151116,
+   340779,
+   1609768,
+   12.2
+  ],
+  [
+   "fasciae",
+   76,
+   157219,
+   71030,
+   282508,
+   1.9
+  ],
+  [
+   "heart",
+   28,
+   276360,
+   139976,
+   375500,
+   3.0
+  ],
+  [
+   "vessels",
+   647,
+   3546672,
+   186312,
+   1168668,
+   17.5
+  ],
+  [
+   "respiratory",
+   36,
+   143028,
+   129957,
+   334784,
+   1.6
+  ],
+  [
+   "digestive",
+   46,
+   299466,
+   120129,
+   362020,
+   3.2
+  ],
+  [
+   "urinary",
+   4,
+   11964,
+   11964,
+   23916,
+   0.9
+  ],
+  [
+   "reproductive",
+   14,
+   19523,
+   19523,
+   54072,
+   1.0
+  ],
+  [
+   "endocrine",
+   10,
+   11308,
+   11308,
+   40532,
+   1.0
+  ],
+  [
+   "lymphatic",
+   158,
+   126338,
+   80852,
+   355240,
+   1.8
+  ],
+  [
+   "cns",
+   282,
+   699564,
+   259612,
+   1024000,
+   5.1
+  ],
+  [
+   "pns",
+   255,
+   1210746,
+   153718,
+   696344,
+   6.1
+  ],
+  [
+   "sensory",
+   36,
+   178162,
+   119968,
+   334676,
+   2.2
+  ]
+ ],
+ "skipped": [
+  {
+   "bundle": "heart",
+   "source_object": "????????",
+   "reason": "unreadable source name (cannot be identified, so not imported)"
+  },
+  {
+   "bundle": "urinary",
+   "source_object": "Kidney.l",
+   "reason": "licence: Kidney model by Lissie Cowley is CC BY-NC 4.0 (non-commercial); not compatible with open redistribution"
+  },
+  {
+   "bundle": "urinary",
+   "source_object": "Kidney.r",
+   "reason": "licence: Kidney model by Lissie Cowley is CC BY-NC 4.0 (non-commercial); not compatible with open redistribution"
+  },
+  {
+   "bundle": "urinary",
+   "source_object": "Renal pelvis.l",
+   "reason": "licence: Kidney model by Lissie Cowley is CC BY-NC 4.0 (non-commercial); not compatible with open redistribution"
+  },
+  {
+   "bundle": "urinary",
+   "source_object": "Renal pelvis.r",
+   "reason": "licence: Kidney model by Lissie Cowley is CC BY-NC 4.0 (non-commercial); not compatible with open redistribution"
+  },
+  {
+   "bundle": "cns",
+   "source_object": "White matter of telencephalon.l",
+   "reason": "licence: White-matter model from University of Washington: licence not stated in the Z-Anatomy repository"
+  },
+  {
+   "bundle": "cns",
+   "source_object": "White matter of telencephalon.r",
+   "reason": "licence: White-matter model from University of Washington: licence not stated in the Z-Anatomy repository"
+  },
+  {
+   "bundle": "cns",
+   "source_object": "White matter of spinal cord",
+   "reason": "licence: White-matter model from University of Washington: licence not stated in the Z-Anatomy repository"
+  },
+  {
+   "bundle": "sensory",
+   "source_object": "Vestibule.r",
+   "reason": "licence: Inner-ear model by University of Dundee is CC BY-NC-SA 4.0 (non-commercial, share-alike)"
+  },
+  {
+   "bundle": "sensory",
+   "source_object": "Vestibule.l",
+   "reason": "licence: Inner-ear model by University of Dundee is CC BY-NC-SA 4.0 (non-commercial, share-alike)"
+  },
+  {
+   "bundle": "sensory",
+   "source_object": "Cochlea.r",
+   "reason": "licence: Inner-ear model by University of Dundee is CC BY-NC-SA 4.0 (non-commercial, share-alike)"
+  },
+  {
+   "bundle": "sensory",
+   "source_object": "Cochlea.l",
+   "reason": "licence: Inner-ear model by University of Dundee is CC BY-NC-SA 4.0 (non-commercial, share-alike)"
+  }
+ ]
+}

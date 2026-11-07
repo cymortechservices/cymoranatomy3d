@@ -1,0 +1,5 @@
+# Minimal Supabase CLI config. Create your own project and link it: `supabase link --project-ref <ref>`.
+project_id = "cymor-anatomy-3d"
+
+[functions.tutor]
+verify_jwt = false   # the tutor is open to guests; abuse is limited by the function's own rate limit (see docs/GEMINI_SETUP.md)

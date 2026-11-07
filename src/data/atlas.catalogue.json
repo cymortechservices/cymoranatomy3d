@@ -1,0 +1,471 @@
+{
+ "skipped": [
+  {
+   "bundle": "heart",
+   "source_object": "????????",
+   "reason": "unreadable source name (cannot be identified, so not imported)"
+  },
+  {
+   "bundle": "urinary",
+   "source_object": "Kidney.l",
+   "reason": "licence: Kidney model by Lissie Cowley is CC BY-NC 4.0 (non-commercial); not compatible with open redistribution"
+  },
+  {
+   "bundle": "urinary",
+   "source_object": "Kidney.r",
+   "reason": "licence: Kidney model by Lissie Cowley is CC BY-NC 4.0 (non-commercial); not compatible with open redistribution"
+  },
+  {
+   "bundle": "urinary",
+   "source_object": "Renal pelvis.l",
+   "reason": "licence: Kidney model by Lissie Cowley is CC BY-NC 4.0 (non-commercial); not compatible with open redistribution"
+  },
+  {
+   "bundle": "urinary",
+   "source_object": "Renal pelvis.r",
+   "reason": "licence: Kidney model by Lissie Cowley is CC BY-NC 4.0 (non-commercial); not compatible with open redistribution"
+  },
+  {
+   "bundle": "cns",
+   "source_object": "White matter of telencephalon.l",
+   "reason": "licence: White-matter model from University of Washington: licence not stated in the Z-Anatomy repository"
+  },
+  {
+   "bundle": "cns",
+   "source_object": "White matter of telencephalon.r",
+   "reason": "licence: White-matter model from University of Washington: licence not stated in the Z-Anatomy repository"
+  },
+  {
+   "bundle": "cns",
+   "source_object": "White matter of spinal cord",
+   "reason": "licence: White-matter model from University of Washington: licence not stated in the Z-Anatomy repository"
+  },
+  {
+   "bundle": "sensory",
+   "source_object": "Vestibule.r",
+   "reason": "licence: Inner-ear model by University of Dundee is CC BY-NC-SA 4.0 (non-commercial, share-alike)"
+  },
+  {
+   "bundle": "sensory",
+   "source_object": "Vestibule.l",
+   "reason": "licence: Inner-ear model by University of Dundee is CC BY-NC-SA 4.0 (non-commercial, share-alike)"
+  },
+  {
+   "bundle": "sensory",
+   "source_object": "Cochlea.r",
+   "reason": "licence: Inner-ear model by University of Dundee is CC BY-NC-SA 4.0 (non-commercial, share-alike)"
+  },
+  {
+   "bundle": "sensory",
+   "source_object": "Cochlea.l",
+   "reason": "licence: Inner-ear model by University of Dundee is CC BY-NC-SA 4.0 (non-commercial, share-alike)"
+  }
+ ],
+ "bundles": [
+  {
+   "id": "skeleton",
+   "title": "Skeletal system",
+   "system": "skeletal",
+   "file": "skeleton.glb",
+   "manifest": "skeleton.json",
+   "bytes": 1286836,
+   "manifest_bytes": 123357,
+   "sha256": "b5a7d3aa704207a9a1d264b6ab14a1a2eff9491bbbd571651eee5a7b07c3687d",
+   "mesh_count": 277,
+   "tris_source": 702015,
+   "tris_out": 350796,
+   "decimation_ratio": 0.4986,
+   "bbox": [
+    [
+     -0.3346465229988098,
+     0.009203300811350346,
+     -0.1128145158290863
+    ],
+    [
+     0.3346465229988098,
+     1.7054548263549805,
+     0.1373080015182495
+    ]
+   ],
+   "latin_names": 118
+  },
+  {
+   "id": "joints",
+   "title": "Joints, ligaments and articular structures",
+   "system": "skeletal",
+   "file": "joints.glb",
+   "manifest": "joints.json",
+   "bytes": 723004,
+   "manifest_bytes": 226499,
+   "sha256": "d77b10416fabd9d6dcb59a168d6f33b82d5616f3b0d9c5c890ed2c57a02a6eda",
+   "mesh_count": 409,
+   "tris_source": 325703,
+   "tris_out": 111569,
+   "decimation_ratio": 0.307,
+   "bbox": [
+    [
+     -0.3306692838668823,
+     0.008652705699205399,
+     -0.1021026223897934
+    ],
+    [
+     0.3306693434715271,
+     1.5872851610183716,
+     0.1286959946155548
+    ]
+   ],
+   "latin_names": 399
+  },
+  {
+   "id": "muscles",
+   "title": "Muscular system",
+   "system": "muscular",
+   "file": "muscles.glb",
+   "manifest": "muscles.json",
+   "bytes": 1609768,
+   "manifest_bytes": 315308,
+   "sha256": "74daacb8e5dae2b43bfbf070780443eca92fc669fca1b663079eacb3a2128c78",
+   "mesh_count": 593,
+   "tris_source": 2151116,
+   "tris_out": 340779,
+   "decimation_ratio": 0.1534,
+   "bbox": [
+    [
+     -0.3298836946487427,
+     0.0071073900908231735,
+     -0.13007453083992004
+    ],
+    [
+     0.3298836350440979,
+     1.707525610923767,
+     0.12848436832427979
+    ]
+   ],
+   "latin_names": 579
+  },
+  {
+   "id": "fasciae",
+   "title": "Fasciae (deep and superficial)",
+   "system": "muscular",
+   "file": "fasciae.glb",
+   "manifest": "fasciae.json",
+   "bytes": 282508,
+   "manifest_bytes": 35120,
+   "sha256": "d56869c73005bf927c7893ecc092570c9d605f268760ecad13e17339389a73e9",
+   "mesh_count": 76,
+   "tris_source": 157219,
+   "tris_out": 71030,
+   "decimation_ratio": 0.4452,
+   "bbox": [
+    [
+     -0.33537667989730835,
+     0.006449282635003328,
+     -0.13100670278072357
+    ],
+    [
+     0.3353767395019531,
+     1.6631340980529785,
+     0.13744351267814636
+    ]
+   ],
+   "latin_names": 76
+  },
+  {
+   "id": "heart",
+   "title": "Heart, valves and coronary vessels",
+   "system": "cardiovascular",
+   "file": "heart.glb",
+   "manifest": "heart.json",
+   "bytes": 375500,
+   "manifest_bytes": 14271,
+   "sha256": "d154a9a9b4896874ca1433064d843b1bf3c630d7b3e4404b01d1a6771a1cb4f7",
+   "mesh_count": 28,
+   "tris_source": 276360,
+   "tris_out": 139976,
+   "decimation_ratio": 0.5066,
+   "bbox": [
+    [
+     -0.03679186478257179,
+     1.2367345094680786,
+     -0.03165838122367859
+    ],
+    [
+     0.08233915269374847,
+     1.3447800874710083,
+     0.0812540128827095
+    ]
+   ],
+   "latin_names": 27
+  },
+  {
+   "id": "vessels",
+   "title": "Arteries and veins",
+   "system": "cardiovascular",
+   "file": "vessels.glb",
+   "manifest": "vessels.json",
+   "bytes": 1168668,
+   "manifest_bytes": 348797,
+   "sha256": "e24fb584f692ff0dca26f1b87825c5ddceb433ac295045add52c6d5e10d5dc45",
+   "mesh_count": 647,
+   "tris_source": 3546672,
+   "tris_out": 186312,
+   "decimation_ratio": 0.0451,
+   "bbox": [
+    [
+     -0.33198481798171997,
+     0.003489418188109994,
+     -0.11274877935647964
+    ],
+    [
+     0.33198481798171997,
+     1.7015783786773682,
+     0.1362372189760208
+    ]
+   ],
+   "latin_names": 612
+  },
+  {
+   "id": "respiratory",
+   "title": "Respiratory system",
+   "system": "respiratory",
+   "file": "respiratory.glb",
+   "manifest": "respiratory.json",
+   "bytes": 334784,
+   "manifest_bytes": 21440,
+   "sha256": "cb13e14d014599a3ef2d969d43c27264b6dff3552b7203c4b0c07cb6742588a1",
+   "mesh_count": 36,
+   "tris_source": 143028,
+   "tris_out": 129957,
+   "decimation_ratio": 0.9089,
+   "bbox": [
+    [
+     -0.13113145530223846,
+     1.1669811010360718,
+     -0.08324302732944489
+    ],
+    [
+     0.12984852492809296,
+     1.5975695848464966,
+     0.10809941589832306
+    ]
+   ],
+   "latin_names": 36
+  },
+  {
+   "id": "digestive",
+   "title": "Digestive system",
+   "system": "digestive",
+   "file": "digestive.glb",
+   "manifest": "digestive.json",
+   "bytes": 362020,
+   "manifest_bytes": 20824,
+   "sha256": "7718663f1f4803cc883cb7c1813101cfca9ebae654f8b1d88fa68abad3434fbd",
+   "mesh_count": 46,
+   "tris_source": 299466,
+   "tris_out": 120129,
+   "decimation_ratio": 0.4007,
+   "bbox": [
+    [
+     -0.1148962676525116,
+     0.8038010597229004,
+     -0.07173075526952744
+    ],
+    [
+     0.11429766565561295,
+     1.59124755859375,
+     0.09944840520620346
+    ]
+   ],
+   "latin_names": 46
+  },
+  {
+   "id": "urinary",
+   "title": "Urinary system",
+   "system": "urinary",
+   "file": "urinary.glb",
+   "manifest": "urinary.json",
+   "bytes": 23916,
+   "manifest_bytes": 1692,
+   "sha256": "e4fc36530ddb5ef8a2bb26af6b07a03ad3e16b41e16cade8b8775b54e637a97b",
+   "mesh_count": 4,
+   "tris_source": 11964,
+   "tris_out": 11964,
+   "decimation_ratio": 1.0,
+   "bbox": [
+    [
+     -0.04083021730184555,
+     0.7449197173118591,
+     -0.04149179905653
+    ],
+    [
+     0.04556933790445328,
+     1.1105148792266846,
+     0.0877605602145195
+    ]
+   ],
+   "latin_names": 4
+  },
+  {
+   "id": "reproductive",
+   "title": "Genital system (male)",
+   "system": "reproductive",
+   "file": "reproductive.glb",
+   "manifest": "reproductive.json",
+   "bytes": 54072,
+   "manifest_bytes": 6531,
+   "sha256": "6a9560179c4c198553757147c91843e36f0084f20542904f53df916b629d78d7",
+   "mesh_count": 14,
+   "tris_source": 19523,
+   "tris_out": 19523,
+   "decimation_ratio": 1.0,
+   "bbox": [
+    [
+     -0.05614585429430008,
+     0.7266453504562378,
+     -0.04452905431389809
+    ],
+    [
+     0.05614586919546127,
+     0.8920794725418091,
+     0.10643548518419266
+    ]
+   ],
+   "latin_names": 14
+  },
+  {
+   "id": "endocrine",
+   "title": "Endocrine glands",
+   "system": "endocrine",
+   "file": "endocrine.glb",
+   "manifest": "endocrine.json",
+   "bytes": 40532,
+   "manifest_bytes": 4592,
+   "sha256": "125de9d5f6b61ee0839999924a657db0cc681fd8931025de2ece8e3a365ecc19",
+   "mesh_count": 10,
+   "tris_source": 11308,
+   "tris_out": 11308,
+   "decimation_ratio": 1.0,
+   "bbox": [
+    [
+     -0.06253448128700256,
+     1.1203031539916992,
+     -0.03501230105757713
+    ],
+    [
+     0.07549172639846802,
+     1.6197072267532349,
+     0.03702874854207039
+    ]
+   ],
+   "latin_names": 10
+  },
+  {
+   "id": "lymphatic",
+   "title": "Lymphoid organs and lymph nodes",
+   "system": "lymphatic",
+   "file": "lymphatic.glb",
+   "manifest": "lymphatic.json",
+   "bytes": 355240,
+   "manifest_bytes": 82042,
+   "sha256": "461a9211d4fb371351dc56dd7c0960686db70aeb07f87cdc36991680fe34fb71",
+   "mesh_count": 158,
+   "tris_source": 126338,
+   "tris_out": 80852,
+   "decimation_ratio": 0.6332,
+   "bbox": [
+    [
+     -0.2261435091495514,
+     0.3173653781414032,
+     -0.09305690973997116
+    ],
+    [
+     0.2261442244052887,
+     1.5930150747299194,
+     0.1032872274518013
+    ]
+   ],
+   "latin_names": 156
+  },
+  {
+   "id": "cns",
+   "title": "Central nervous system",
+   "system": "nervous",
+   "file": "cns.glb",
+   "manifest": "cns.json",
+   "bytes": 1024000,
+   "manifest_bytes": 144487,
+   "sha256": "cda4cc0782348ce0ab48dd40fde9c39fde96478ac956168f08377fe1278f75c2",
+   "mesh_count": 282,
+   "tris_source": 699564,
+   "tris_out": 259612,
+   "decimation_ratio": 0.3574,
+   "bbox": [
+    [
+     -0.06877059489488602,
+     1.0547378063201904,
+     -0.09928335249423981
+    ],
+    [
+     0.0687706246972084,
+     1.7005852460861206,
+     0.08138873428106308
+    ]
+   ],
+   "latin_names": 227
+  },
+  {
+   "id": "pns",
+   "title": "Peripheral nervous system",
+   "system": "nervous",
+   "file": "pns.glb",
+   "manifest": "pns.json",
+   "bytes": 696344,
+   "manifest_bytes": 150915,
+   "sha256": "3d68ef8a5f56fbd1ffd55473125af8084e9db8dd16da9711848773af46c0573d",
+   "mesh_count": 255,
+   "tris_source": 1210746,
+   "tris_out": 153718,
+   "decimation_ratio": 0.1239,
+   "bbox": [
+    [
+     -0.33368006348609924,
+     0.006860015448182821,
+     -0.11232820898294449
+    ],
+    [
+     0.3336797058582306,
+     1.6644251346588135,
+     0.13024935126304626
+    ]
+   ],
+   "latin_names": 255
+  },
+  {
+   "id": "sensory",
+   "title": "Sense organs (eye and ear)",
+   "system": "sensory",
+   "file": "sensory.glb",
+   "manifest": "sensory.json",
+   "bytes": 334676,
+   "manifest_bytes": 17057,
+   "sha256": "7fa505912e5fecdd96691e695a527e1687113b053ae5541e9de3f3c25a3ed9b9",
+   "mesh_count": 36,
+   "tris_source": 178162,
+   "tris_out": 119968,
+   "decimation_ratio": 0.6735,
+   "bbox": [
+    [
+     -0.050622452050447464,
+     1.5546720027923584,
+     -0.009652091190218925
+    ],
+    [
+     0.050622422248125076,
+     1.6117937564849854,
+     0.07815010845661163
+    ]
+   ],
+   "latin_names": 36
+  }
+ ]
+}
