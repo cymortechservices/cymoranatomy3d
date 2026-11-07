@@ -1,0 +1,57 @@
+name: Extract CYMOR ANATOMY 3D zip
+
+# Upload CYMOR-ANATOMY-3D-FINAL.zip to the repo root (and optionally the
+# .sha256 file), then push. This workflow unpacks it into the repo and commits.
+on:
+  push:
+    branches: [main]
+    paths:
+      - "CYMOR-ANATOMY-3D-FINAL.zip"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  extract:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Check the zip exists
+        run: test -f CYMOR-ANATOMY-3D-FINAL.zip || { echo "Zip not found in repo root"; exit 1; }
+
+      - name: Verify checksum (if provided)
+        run: |
+          if [ -f CYMOR-ANATOMY-3D-CHECKSUMS.sha256 ]; then
+            grep " CYMOR-ANATOMY-3D-FINAL.zip" CYMOR-ANATOMY-3D-CHECKSUMS.sha256 | sha256sum -c -
+          else
+            echo "No checksum file, skipping"
+          fi
+
+      - name: Extract (drops the top-level cymor-anatomy-3d/ folder)
+        run: |
+          rm -rf /tmp/unz && mkdir /tmp/unz
+          unzip -q CYMOR-ANATOMY-3D-FINAL.zip -d /tmp/unz
+          cp -a /tmp/unz/cymor-anatomy-3d/. .
+
+      - name: Remove the zip so it is not re-processed
+        run: git rm -q --cached CYMOR-ANATOMY-3D-FINAL.zip && rm CYMOR-ANATOMY-3D-FINAL.zip
+
+      - name: Commit and push extracted project
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add -A
+          git commit -m "Extract CYMOR ANATOMY 3D project" || echo "Nothing to commit"
+          git push
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+          cache: npm
+
+      - name: Install and build (sanity check)
+        run: |
+          npm ci
+          npm run build
